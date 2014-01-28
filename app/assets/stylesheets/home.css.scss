@@ -6,12 +6,13 @@
   background-color: midnightblue;
   height: 300px;
   margin-top: -20px;
-
+  
+  .name,
   .new-account {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
-    padding-top: 2em;
+    padding-top: 1em;
     text-align: center;
     text-transform: uppercase;
   }
@@ -23,8 +24,66 @@
     text-transform: uppercase;
     letter-spacing: 5px;
   }
+
+  h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+  }
   .fa.fa-mobile {
     font-size: 3em;
     margin-bottom: 2em;
   }
 }
+
+.boarding-pass { background-color: rgba(39, 174, 96,1.0); }
+.flight-status { background-color: rgba(22, 160, 133,1.0); }
+.book-a-flight { background-color: rgba(41, 128, 185,1.0); }
+
+.book-a-flight,
+.flight-status,
+.boarding-pass {
+  padding: 30px;
+
+  .check-in h4 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+}
+
+    .boarding-pass-details {
+      background-color: white;
+      box-shadow: 0px 5px 10px black;
+      h1, h5 {
+        text-align: center;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
