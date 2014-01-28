@@ -1,2 +1,12 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<div class="small-12 columns banner-container">
+  <div class="small-9 small-centered columns">
+    <h1 class="new-account">
+      <%= current_user.first_name %>
+    </h1>
+    <p>Your Boarding Pass</p>
+    <p>made mobile.</p>
+    <!-- <p><%= current_user.inspect %></p> -->
+  </div>
+</div>
+
+<%= link_to "Logout", :logout, method: :post %>
