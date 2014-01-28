@@ -1,2 +1,21 @@
-<h1>UserSessions#new</h1>
-<%= render 'form' %>
+<div class="small-12 columns banner-container">
+  <div class="small-9 small-centered columns">
+    <h1 class="new-account"><i class="fa fa-globe"></i> United Airlines</h1>
+    <p>Your Boarding Pass</p>
+    <p>made mobile.</p>
+  </div>
+</div>
+
+<div class="small-12 columns login-form">
+  <%= render 'form' %>
+</div>
+
+<div class="small-12 columns register-block">
+  <h3><i class="fa fa-mobile"></i></i> First time here?</h3>
+  <div class="small-4 small-centered columns">
+    <%= link_to "Sign up!", new_user_path, class: "button expand register-btn" %>
+  </div>
+</div>
+
+
+

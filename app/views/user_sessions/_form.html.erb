@@ -1,13 +1,22 @@
 <%= form_tag user_sessions_path, :method => :post do %>
-  <div class="field">
-    <%= label_tag :email %><br />
+  <h1>Login</h1>
+  <div class="small-3 columns">
+    <%= label_tag :email, nil, class: "login-label right inline" %>
+  </div>
+  <div class="small-9 columns">
     <%= text_field_tag :email %>
   </div>
-  <div class="field">
-    <%= label_tag :password %><br />
+
+  <div class="small-3 columns">
+    <%= label_tag :password, nil, class: "login-label right inline" %>
+  </div>
+  <div class="small-9 columns">
     <%= password_field_tag :password %>
   </div>
-  <div class="actions">
-    <%= submit_tag "Login" %>
+
+
+
+  <div class="small-8 small-centered columns">
+    <%= submit_tag "Login", class: "login-btn button" %>
   </div>
 <% end %>
