@@ -15,34 +15,29 @@
   </div>
 </div>
 
-<div class="small-12 columns boarding-pass">
-  <!-- <i class="fa fa-exclamation"> boarding pass ready!</i> -->
-
-  <div class="small-12 columns check-in">
-    <h4><i class="fa fa-check-circle-o"></i> Check In </h4>
-
-
-
-    <div class="small-12 columns boarding-pass-details">
-      <h1>UA 2323</h1>
-      <h5>TORONTO PEARSON INTL <i class="fa fa-arrow-right"></i> NYC LA GUARDIA</h5>
-      <h5>Terminal 1 - Gate 12</h5>
-      <div class="small-6 small-centered columns">
-        <%= image_tag "qr_code.jpg" %>
+<% if current_user %>
+  <div class="small-12 columns boarding-pass">
+    <div class="small-12 columns check-in">
+      <h4><i class="fa fa-check-circle-o"></i> Check In </h4>
+      <div class="small-12 columns boarding-pass-details">
+        <h1>UA 2323</h1>
+        <h5>TORONTO PEARSON INTL <i class="fa fa-arrow-right"></i> NYC LA GUARDIA</h5>
+        <h5>Terminal 1 - Gate 12</h5>
+        <div class="small-6 small-centered columns">
+          <%= image_tag "qr_code.jpg" %>
+        </div>
       </div>
-      <h5></h5>
     </div>
-
   </div>
-</div>
-<div class="small-12 columns flight-status">
-  <div class="small-12 columns check-in">
-    <h4><i class="fa fa-clock-o"></i> Flight Status</h4>
+  <div class="small-12 columns flight-status">
+    <div class="small-12 columns check-in">
+      <h4><i class="fa fa-clock-o"></i> Flight Status</h4>
+    </div>
   </div>
-</div>
-<div class="small-12 columns book-a-flight">
-  <div class="small-12 columns check-in">
-    <h4><i class="fa fa-plane"></i> Book Flight</h4>
+  <div class="small-12 columns book-a-flight">
+    <div class="small-12 columns check-in">
+      <h4><i class="fa fa-plane"></i> Book Flight</h4>
+    </div>
   </div>
-</div>
+<% end %>
 
