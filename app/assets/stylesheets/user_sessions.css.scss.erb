@@ -39,21 +39,33 @@
 
 .login-form {
   background-color: rgba(41, 128, 185,1.0);
+  margin-bottom: -3px;
   padding-top: 2em;
   padding-bottom: 2em;
-  margin-bottom: -3px;
-  .login-label {
-    color: white;
-    font-size: 1em;
+  h3 {
+    background-color: lightblue;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    text-align: center;
     text-transform: uppercase;
   }
-  .login-btn {
-    // background-color: rgba(230, 126, 34,1.0);
-    background-color: #fc0;
-    color: black;
-    float: right;
-    margin-bottom: 0px;
+  label {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
   }
+
+  .login-btn {
+    background-color: #fc0;
+    border-bottom: 5px solid darkorange;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 4em;
+  }
+ 
 }
 
 .register-block {
@@ -75,6 +87,7 @@
     .register-btn {
       color: white;
       background-color: green;
+      border-bottom: 5px solid rgba(22, 160, 133,1.0);
       font-family: "Montserrat", sans-serif;
       margin-top: 2em;
     }
