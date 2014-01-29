@@ -14,6 +14,17 @@ gem install bundler
 bundle install
 ```
 
+5. If at anytime you see an error that says this: 
+
+```
+Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development'
+```
+
+Go ahead and run the following code in your Terminal, like this: 
+```
+bin/rake db:migrate RAILS_ENV=development
+```
+
 5. Type in `rails server` in your Terminal, you should see output that looks like this:
 
 ```
