@@ -11,9 +11,10 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
+      auto_login(@user)
       # redirect_to(:action => "show", :id => @user.id , notice: 'User was successfully created')
       # login(@user.email, @user.password, remember_me = false)
-      redirect_to( login_path, notice: "You're signed up! Please login one more time!")
+      redirect_to( root_path, notice: "You're signed up and ready to fly!")
     else
       render action: 'new'
     end

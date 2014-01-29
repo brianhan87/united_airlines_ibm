@@ -1,3 +1,17 @@
+// ALERTS AND NOTICES
+
+#alert, 
+#notice {
+  color: white;
+  background-color: blue; 
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+  border-radius: 5px;
+}
+
+#alert { background-color: #e74c3c; }
+#notice { background-color: #1abc9c; }
 // LOGIN, LOGOUT & SIGNUP BUTTONS
 
 .nav {

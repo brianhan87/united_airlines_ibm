@@ -18,8 +18,13 @@
   <body>
         
     <div>
-      <p id="notice"><%= flash[:notice] %></p>
-      <p id="alert"><%= flash[:alert] %></p>
+      <div class="small-12 columns">
+        <div class="small-6 small-centered columns">
+          <p id="notice"><%= flash[:notice] %></p>
+          <p id="alert"><%= flash[:alert] %></p>    
+        </div>
+      </div>
+      
       <%= yield %>      
     </div>
     
