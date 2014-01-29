@@ -25,7 +25,7 @@ Go ahead and run the following code in your Terminal, like this:
 bin/rake db:migrate RAILS_ENV=development
 ```
 
-5. Type in `rails server` in your Terminal, you should see output that looks like this:
+6. Type in `rails server` in your Terminal, you should see output that looks like this:
 
 ```
 rails server
@@ -38,8 +38,8 @@ rails server
 [2014-01-29 02:43:01] INFO  WEBrick::HTTPServer#start: pid=4456 port=3000)
 ```
 
-6. The app should now be running on port=3000 of your machine
-7. Open your browser and go to the following address: 
+7. The app should now be running on port=3000 of your machine
+8. Open your browser and go to the following address: 
 ```
 localhost:3000
 ```
