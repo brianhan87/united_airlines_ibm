@@ -40,7 +40,29 @@
   }
 }
 
-// USER_SESSION LOGIN FORM
+// NEW USER SIGN UP FORM
+
+.new-account { 
+  color: white; 
+  font-family: "Montserrat", sans-serif;
+  text-align: center; }
+
+.errors { 
+  background-color: white; 
+  margin-bottom: 1em; 
+}
+
+#error_explanation {  
+  padding: 0.5em;
+
+  .fa.fa-exclamation-triangle { 
+    color: #e74c3c; 
+  }
+}
+
+
+
+// NEW USER_SESSION LOGIN FORM
 
 .login-form {
   margin-bottom: -3px;
