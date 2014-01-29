@@ -17,46 +17,35 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="create-new-account">
     <div class="small-12 columns">
-      <div class="row">
-        <div class="small-3 columns"><%= f.label :first_name, class: "right inline" %></div>
-        <div class="small-9 columns"><%= f.text_field :first_name %></div>
-      </div>
+      <%= f.label :first_name %>
+      <div class="small-6 small-centered columns account-field"><%= f.text_field :first_name %></div>
     </div>
-  </div>
-  
-  <div class="row">
-    <div class="small-12 columns">
-      <div class="row">
-        <div class="small-3 columns"><%= f.label :email, class: "right inline" %></div>
-        <div class="small-9 columns"><%= f.text_field :email %></div>
-      </div>
-    </div>
-  </div>
 
-  <div class="row">
     <div class="small-12 columns">
-      <div class="row">
-        <div class="small-3 columns"><%= f.label :password, class: "right inline" %></div>
-        <div class="small-9 columns"><%= f.password_field :password %></div>
+      <%= f.label :email %>
+      <div class="small-6 small-centered columns account-field">
+        <%= f.text_field :email %>
       </div>
     </div>
-  </div>
-  
-  <div class="row">
+    
     <div class="small-12 columns">
-      <div class="row">
-        <div class="small-3 columns"><%= f.label :password_confirmation, class: "right inline" %></div>
-        <div class="small-9 columns"><%= f.password_field :password_confirmation %></div> 
+      <%= f.label :password %>
+      <div class="small-6 small-centered columns account-field">
+        <%= f.password_field :password %>
       </div>
     </div>
-  </div>
-  
-  <div class="row">
+    
     <div class="small-12 columns">
-      <div class="row">
-        <div class="small-3 small-offset-3 columns"><%= f.submit "Create new account", class: "button" %></div>
+      <%= f.label :password_confirmation %>
+      <div class="small-6 small-centered columns account-field">
+        <%= f.password_field :password_confirmation %>
+      </div>
+    </div>
+    
+    <div class="small-12 columns">
+      <div class="small-5 small-centered columns"><%= f.submit "Create new account", class: "large button success expand" %>
       </div>
     </div>
   </div>

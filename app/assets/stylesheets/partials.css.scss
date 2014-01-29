@@ -42,8 +42,9 @@
 
 // NEW USER SIGN UP FORM
 
-.new-account { 
+.new-account-title { 
   color: white; 
+  padding-top: 1em;
   font-family: "Montserrat", sans-serif;
   text-align: center; }
 
@@ -60,7 +61,21 @@
   }
 }
 
+.create-new-account {
+  padding-top: 1em;
+  padding-bottom: 1em;
 
+  label {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  .account-field {
+    margin-bottom: 2em;
+  }
+}
 
 // NEW USER_SESSION LOGIN FORM
 
