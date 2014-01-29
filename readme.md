@@ -1,4 +1,4 @@
-# United Airlines mobile app // IBM Design
+## United Airlines mobile app // IBM Design
 ### Brian Han
 
 Please follow the directions below to run this app locally from your MAC OS X computer: 
@@ -14,9 +14,10 @@ gem install bundler
 bundle install
 ```
 
-5. Type in 'rails server' in your Terminal, you should see output that looks like this:
+5. Type in `rails server` in your Terminal, you should see output that looks like this:
 
 ```
+rails server
 ( => Booting WEBrick
 => Rails 4.0.1 application starting in development on http://0.0.0.0:3000
 => Run `rails server -h` for more startup options
