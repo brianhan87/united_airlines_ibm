@@ -3,7 +3,7 @@
 
 Please follow the directions below to run this app locally from your MAC OS X computer: 
 
-1.  Download and unzip the project directory.
+1.  Download and unzip the project directory (*united_airlines_ibm-master.zip*)
 
 2.  Open Terminal program (Applications/Utilities/Terminal)
 
